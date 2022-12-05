@@ -1811,7 +1811,6 @@
         "cork plea {<sndr rcvr bone=bone vane.plea path.plea>}"
     abet:(on-memo:(make-peer-core peer-state channel) bone plea %plea)
   ::  +on-kroc: explicitly cork a flow on the provided bone
-  ::    TODO: refactor
   ::
   ++  on-kroc
     |=  [=ship =bone]
